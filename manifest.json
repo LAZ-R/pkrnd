@@ -1,5 +1,5 @@
 {
-  "name": "laz_R Template",
+  "name": "PKRND",
   "icons": [
     {
       "src": "./images/app-maskable-icons/app_icon_144.png",
@@ -26,10 +26,10 @@
       "purpose": "any maskable"
     }
   ],
-  "lang": "en-US",
+  "lang": "fr-FR",
   "orientation": "portrait",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#007acc",
-  "theme_color": "#007acc"
+  "background_color": "#4d4d4d",
+  "theme_color": "#4d4d4d"
 }

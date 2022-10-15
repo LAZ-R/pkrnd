@@ -7,11 +7,11 @@ if (STORAGE.getItem(`${appShortName}FirstTime`) === null) {
         settings: [
             {
                 id: 1,
-                name: 'Basics',
+                name: '',
                 settings: [
                     {
                         id: 'keepScreenAwake',
-                        name: 'Keep screen awake',
+                        name: `Laisser l'écran allumé lorsque l'application est en route`,
                         isActive: true
                     }
                 ]

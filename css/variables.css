@@ -3,6 +3,12 @@
      COLORS
     ========================== */
 
+    /* APP SPECIAL */
+
+    --pokemon-blue:  #3B4CCA;
+    --pokemon-red: #CC0000;
+    --pokemon-yellow: #FFDE00;
+
     /* Gray */
     --gray-90: #191919;
     --gray-80: #333333;
@@ -15,23 +21,23 @@
     --gray-10: #e6e6e6;
 
     /* Primary */
-    --primary: #007acc;
-    --primary-hover: #0071bd;
+    --primary: var(--gray-70);
+    --primary-hover: var(--gray-60);
 
     --on-primary : #ffffff;
 
     /* Accent */
-    --accent: #a441bd;
+    --accent: var(--pokemon-red);
     --accent-hover: #973dad;
 
     /* Constant colors */
     --lazr-red: #b85858;
-    --html-background-color: #ffffff;
+    --html-background-color: var(--gray-80);
     
     /* Font colors */
-    --font-color-default: var(--gray-60);
+    --font-color-default: var(--gray-20);
 
-    --font-color-links: var(--gray-60);
+    --font-color-links: var(--gray-20);
 
     --font-color-header: var(--on-primary);
     --font-color-header-hover: var(--on-primary);

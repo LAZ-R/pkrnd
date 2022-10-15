@@ -55,7 +55,7 @@ export const renderView = () => {
 
     const burgerMenu = LAZR.DOM.createElement('div', 'burgerMenu', 'burger-menu', `
         <div class="burger-menu-pages">
-            <a href="./" class="burger-menu-page">Home</a>
+            <a href="./" class="burger-menu-page">Accueil</a>
         </div>
         <div class="burger-menu-bottom">
             <div class="burger-menu-utils">   
@@ -70,13 +70,13 @@ export const renderView = () => {
                     <div class="util-icon-area">
                         <img class="util-icon" src="./images/font-awsome/gear-solid.svg" alt="gear" style="filter: ${onPrimaryFilter};" />
                     </div>                    
-                    <span>Settings</span>
+                    <span>Paramètres</span>
                 </a>
                 <a href="./?page=about" class="burger-menu-page burger-menu-util">
                     <div class="util-icon-area">
                         <img class="util-icon" src="./images/font-awsome/circle-info-solid.svg" alt="information mark" style="filter: ${onPrimaryFilter};" />
                     </div>                    
-                    <span>About</span>
+                    <span>À propos</span>
                 </a>
             </div>
             <div class="burger-menu-app-data">

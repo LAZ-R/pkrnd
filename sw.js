@@ -1,4 +1,4 @@
-var cacheName = 'LAZR-TEMPLATE';
+var cacheName = 'PKRND';
 var filesToCache = [
   './',
   './index.html',
@@ -25,4 +25,4 @@ self.addEventListener('fetch', function(e) {
   );
 });
 
-const version = '0.0.7';
+const version = '0.0.1';

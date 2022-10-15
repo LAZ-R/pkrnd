@@ -42,10 +42,10 @@ const renderSettingsGroup = (settingsGroup) => {
 
 export const renderPage = () => {
 
-    LAZR.DOM.setHTMLTitle('Settings');
+    LAZR.DOM.setHTMLTitle('Paramètres');
 
     const page = LAZR.DOM.createElement('div', 'settingsPage', 'page', `
-        <h1 style="padding-left: var(--horizontal-padding)">Settings</h1>`);
+        <h1 style="padding-left: var(--horizontal-padding)">Paramètres</h1>`);
     settings.forEach(settingsGroup => {
         page.appendChild(LAZR.DOM.getElementFromHTMLString(renderSettingsGroup(settingsGroup)));
     });
