@@ -1,0 +1,13 @@
+.type-image {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--type-icon-diameter);
+    width: var(--type-icon-diameter);
+    border-radius: 50%;
+}
+
+.type-icon {
+    height: 60%;
+}

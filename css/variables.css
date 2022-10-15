@@ -9,8 +9,25 @@
     --pokemon-red: #CC0000;
     --pokemon-yellow: #FFDE00;
 
+    --TYPE-COMBAT:  #D3425F;
+    --TYPE-DRAGON:  #0C69C8;
+    --TYPE-EAU:     #539DDF;
+    --TYPE-ELECTRIK:#F2D94E;
+    --TYPE-FEU:     #FBA54C;
+    --TYPE-GLACE:   #75D0C1;
+    --TYPE-INSECTE: #92BC2C;
+    --TYPE-NORMAL:  #A0A29F;
+    --TYPE-PLANTE:  #5FBD58;
+    --TYPE-POISON:  #B763CF;
+    --TYPE-PSY:     #FA8581;
+    --TYPE-ROCHE:   #C9BB8A;
+    --TYPE-SOL:     #DA7C4D;
+    --TYPE-SPECTRE: #5F6DBC;
+    --TYPE-VOL:     #A1BBEC;
+
     /* Gray */
     --gray-90: #191919;
+    --gray-85: #2c2c2c;
     --gray-80: #333333;
     --gray-70: #4d4d4d;
     --gray-60: #666666;
@@ -48,6 +65,8 @@
     /* ==========================
      SIZES
     ========================== */
+
+    --type-icon-diameter: 35px;
 
     --doc-height: 100%;
 

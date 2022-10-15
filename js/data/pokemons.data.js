@@ -1,9 +1,10 @@
+import { TYPES } from "../enums/types.enum.js"
 export const POKEMONS_LIST = [
     {
         'id'          : `001`,
         'name'        : `Bulbizarre`,
-        'type1'       : `Plante`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSN,
         'description' : `Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance.`,
         'pv_total'    : 294,
         'attack'      : 197,
@@ -14,8 +15,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `002`,
         'name'        : `Herbizarre`,
-        'type1'       : `Plante`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSN,
         'description' : `Son bulbe dorsal devient si gros qu'il ne peut plus tenir sur ses membres postérieurs.`,
         'pv_total'    : 324,
         'attack'      : 223,
@@ -26,8 +27,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `003`,
         'name'        : `Florizarre`,
-        'type1'       : `Plante`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSN,
         'description' : `Sa plante mûrit en absorbant les rayons du soleil. Il migre souvent vers les endroits ensoleillés.`,
         'pv_total'    : 364,
         'attack'      : 263,
@@ -39,7 +40,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `004`,
         'name'        : `Salamèche`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : `Il préfère les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue.`,
         'pv_total'    : 282,
@@ -51,7 +52,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `005`,
         'name'        : `Reptincel`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : `En agitant sa queue, il peut augmenter le niveau de la température à un degré incroyable.`,
         'pv_total'    : 320,
@@ -63,8 +64,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `006`,
         'name'        : `Dracaufeu`,
-        'type1'       : `Feu`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.FEU,
+        'type2'       : TYPES.VOL,
         'description' : `Il peut fondre la roche de son souffle brûlant. Il est souvent la cause d'énormes incendies.`,
         'pv_total'    : 360,
         'attack'      : 267,
@@ -76,7 +77,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `007`,
         'name'        : `Carapuce`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : `Son dos durcit avec l'âge et devient une super carapace. Il peut cracher des jets d'écume.`,
         'pv_total'    : 292,
@@ -88,7 +89,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `008`,
         'name'        : `Carabaffe`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : `Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails.`,
         'pv_total'    : 322,
@@ -100,7 +101,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `009`,
         'name'        : `Tortank`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : `Un Pokémon brutal armé de canons hydrauliques. Ses puissants jets d'eau sont dévastateurs.`,
         'pv_total'    : 362,
@@ -113,7 +114,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `010`,
         'name'        : `Chenipan`,
-        'type1'       : `Insecte`,
+        'type1'       : TYPES.INS,
         'type2'       : ``,
         'description' : `Ses petites pattes sont équipées de ventouses, lui permettant de grimper aux murs.`,
         'pv_total'    : 294,
@@ -125,7 +126,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `011`,
         'name'        : `Chrysacier`,
-        'type1'       : `Insecte`,
+        'type1'       : TYPES.INS,
         'type2'       : ``,
         'description' : `Il est vulnérable aux attaques tant que sa carapace fragile expose son corps tendre et mou.`,
         'pv_total'    : 304,
@@ -137,8 +138,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `012`,
         'name'        : `Papilusion`,
-        'type1'       : `Insecte`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.INS,
+        'type2'       : TYPES.VOL,
         'description' : `En combat il bat des ailes très rapidement pour jeter sur ses ennemis des poudres toxiques.`,
         'pv_total'    : 324,
         'attack'      : 189,
@@ -150,8 +151,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `013`,
         'name'        : `Aspicot`,
-        'type1'       : `Insecte`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.INS,
+        'type2'       : TYPES.PSN,
         'description' : `Il se nourrit de feuilles dans les forêts. L'aiguillon sur son front est empoisonné.`,
         'pv_total'    : 284,
         'attack'      : 169,
@@ -162,8 +163,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `014`,
         'name'        : `Coconfort`,
-        'type1'       : `Insecte`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.INS,
+        'type2'       : TYPES.PSN,
         'description' : `Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace.`,
         'pv_total'    : 294,
         'attack'      : 149,
@@ -174,8 +175,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `015`,
         'name'        : `Dardargnan`,
-        'type1'       : `Insecte`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.INS,
+        'type2'       : TYPES.PSN,
         'description' : `Il vole à très grande vitesse. Il se bat avec les dards empoisonnés de ses bras.`,
         'pv_total'    : 334,
         'attack'      : 279,
@@ -187,8 +188,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `016`,
         'name'        : `Roucool`,
-        'type1'       : `Normal`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.NOR,
+        'type2'       : TYPES.VOL,
         'description' : `Il est souvent vu dans les forêts. Il brasse l'air de ses ailes près du sol pour projeter du sable.`,
         'pv_total'    : 284,
         'attack'      : 189,
@@ -199,8 +200,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `017`,
         'name'        : `Roucoups`,
-        'type1'       : `Normal`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.NOR,
+        'type2'       : TYPES.VOL,
         'description' : `Il protège son territoire avec ardeur et repousse à coups de bec tout individu.`,
         'pv_total'    : 330,
         'attack'      : 219,
@@ -211,8 +212,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `018`,
         'name'        : `Roucarnage`,
-        'type1'       : `Normal`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.NOR,
+        'type2'       : TYPES.VOL,
         'description' : `Il chasse en survolant la surface de l'eau et en plongeant pour attraper des proies faciles.`,
         'pv_total'    : 370,
         'attack'      : 259,
@@ -224,7 +225,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `019`,
         'name'        : `Rattata`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : `Sa morsure est très puissante. Petit et rapide, on en voit un peu partout.`,
         'pv_total'    : 264,
@@ -236,7 +237,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `020`,
         'name'        : `Rattatac`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : `Si ses moustaches sont coupées, il perds le sens de son équilibre et devient moins rapide.`,
         'pv_total'    : 314,
@@ -249,8 +250,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `021`,
         'name'        : `Piafabec`,
-        'type1'       : `Normal`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.NOR,
+        'type2'       : TYPES.VOL,
         'description' : `Il chasse les insectes dans les hautes-herbes. Ses petites ailes lui permettent de voler très vite.`,
         'pv_total'    : 284,
         'attack'      : 219,
@@ -261,8 +262,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `022`,
         'name'        : `Rapasdepic`,
-        'type1'       : `Normal`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.NOR,
+        'type2'       : TYPES.VOL,
         'description' : `Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement.`,
         'pv_total'    : 334,
         'attack'      : 279,
@@ -274,7 +275,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `023`,
         'name'        : `Abo`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : `Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec.`,
         'pv_total'    : 274,
@@ -286,7 +287,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `024`,
         'name'        : `Arbok`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : `Les motifs féroces peints sur son corps changent selon son environnement.`,
         'pv_total'    : 324,
@@ -299,7 +300,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `025`,
         'name'        : `Pikachu`,
-        'type1'       : `Électrik`,
+        'type1'       : TYPES.ELE,
         'type2'       : ``,
         'description' : `Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.`,
         'pv_total'    : 274,
@@ -311,7 +312,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `026`,
         'name'        : `Raichu`,
-        'type1'       : `Électrik`,
+        'type1'       : TYPES.ELE,
         'type2'       : ``,
         'description' : `Il doit garder sa queue en contact avec le sol pour éviter toute électrocution.`,
         'pv_total'    : 324,
@@ -324,7 +325,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `027`,
         'name'        : `Sabelette`,
-        'type1'       : `Sol`,
+        'type1'       : TYPES.SOL,
         'type2'       : ``,
         'description' : `Il s'enterre dans les régions arides et désertiques. Il émerge seulement pour chasser.`,
         'pv_total'    : 304,
@@ -336,7 +337,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `028`,
         'name'        : `Sablaireau`,
-        'type1'       : `Sol`,
+        'type1'       : TYPES.SOL,
         'type2'       : ``,
         'description' : `Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer.`,
         'pv_total'    : 354,
@@ -349,7 +350,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `029`,
         'name'        : `Nidoran ♀`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : `Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits.`,
         'pv_total'    : 314,
@@ -361,7 +362,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `030`,
         'name'        : `Nidorina`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : `La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule.`,
         'pv_total'    : 344,
@@ -373,8 +374,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `031`,
         'name'        : `Nidoqueen`,
-        'type1'       : `Poison`,
-        'type2'       : `Sol`,
+        'type1'       : TYPES.PSN,
+        'type2'       : TYPES.SOL,
         'description' : `Ses écailles très résistantes et son corps massif sont des armes dévastatrices.`,
         'pv_total'    : 384,
         'attack'      : 263,
@@ -386,7 +387,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `032`,
         'name'        : `Nidoran ♂`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : `Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel.`,
         'pv_total'    : 296,
@@ -398,7 +399,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `033`,
         'name'        : `Nidorino`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : `Très agressif, il est prompt à répondre à la violence. La corne sur sa tête est venimeuse.`,
         'pv_total'    : 326,
@@ -410,8 +411,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `034`,
         'name'        : `Nidoking`,
-        'type1'       : `Poison`,
-        'type2'       : `Sol`,
+        'type1'       : TYPES.PSN,
+        'type2'       : TYPES.SOL,
         'description' : `Sa queue est une arme redoutable, il s'en sert pour attraper sa proie et lui broyer les os.`,
         'pv_total'    : 366,
         'attack'      : 283,
@@ -423,7 +424,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `035`,
         'name'        : `Mélofée`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : `Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis.`,
         'pv_total'    : 344,
@@ -435,7 +436,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `036`,
         'name'        : `Mélodelfe`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : `Une sorte de petite fée très rare. Il se cache en apercevant un être humain.`,
         'pv_total'    : 394,
@@ -448,7 +449,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `037`,
         'name'        : `Goupix`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : `Il n'a qu'une seule queue à la naissance. Celle-ci se divise à la pointe au fil des ans.`,
         'pv_total'    : 280,
@@ -460,7 +461,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `038`,
         'name'        : `Feunard`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : `Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans.`,
         'pv_total'    : 350,
@@ -473,7 +474,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `039`,
         'name'        : `Rondoudou`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : `Quand ses yeux s'illuminent, il chante une mystérieuse berceuse.`,
         'pv_total'    : 434,
@@ -485,7 +486,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `040`,
         'name'        : `Grodoudou`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : `En cas de danger, il gonfle d'air son corps doux et potelé dans des proportions gigantesques.`,
         'pv_total'    : 484,
@@ -498,8 +499,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `041`,
         'name'        : `Nosferapti`,
-        'type1'       : `Poison`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.PSN,
+        'type2'       : TYPES.VOL,
         'description' : `Se déplace en colonie dans les endroits sombres. Il s'oriente grâce aux ultrasons.`,
         'pv_total'    : 248,
         'attack'      : 189,
@@ -510,8 +511,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `042`,
         'name'        : `Nosferalto`,
-        'type1'       : `Poison`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.PSN,
+        'type2'       : TYPES.VOL,
         'description' : `Une fois son adversaire mordu, il absorbera son énergie même s'il est trop gros pour voler.`,
         'pv_total'    : 354,
         'attack'      : 259,
@@ -523,8 +524,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `043`,
         'name'        : `Mystherbe`,
-        'type1'       : `Plante`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSN,
         'description' : `Pendant la journée il se cache sous la terre. Il s'aventure la nuit pour planter des graines.`,
         'pv_total'    : 294,
         'attack'      : 199,
@@ -535,8 +536,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `044`,
         'name'        : `Ortide`,
-        'type1'       : `Plante`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSN,
         'description' : `Le liquide qui coule de sa bouche est comestible. Il sert à appâter sa proie.`,
         'pv_total'    : 324,
         'attack'      : 229,
@@ -547,8 +548,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `045`,
         'name'        : `Rafflesia`,
-        'type1'       : `Plante`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSN,
         'description' : `Plus ses pétales son grands, plus ils contiennent de pollen toxique.`,
         'pv_total'    : 354,
         'attack'      : 259,
@@ -560,8 +561,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `046`,
         'name'        : `Paras`,
-        'type1'       : `Insecte`,
-        'type2'       : `Plante`,
+        'type1'       : TYPES.INS,
+        'type2'       : TYPES.PLA,
         'description' : `Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde.`,
         'pv_total'    : 274,
         'attack'      : 239,
@@ -572,8 +573,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `047`,
         'name'        : `Parasect`,
-        'type1'       : `Insecte`,
-        'type2'       : `Plante`,
+        'type1'       : TYPES.INS,
+        'type2'       : TYPES.PLA,
         'description' : `Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle de son hôte.`,
         'pv_total'    : 324,
         'attack'      : 289,
@@ -585,8 +586,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `048`,
         'name'        : `Mimitoss`,
-        'type1'       : `Insecte`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.INS,
+        'type2'       : TYPES.PSN,
         'description' : `Il vit a l'ombre des grands arbres ou il mange des insectes. il est attiré par la lumière.`,
         'pv_total'    : 324,
         'attack'      : 209,
@@ -597,8 +598,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `049`,
         'name'        : `Aéromite`,
-        'type1'       : `Insecte`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.INS,
+        'type2'       : TYPES.PSN,
         'description' : `Les motifs ocres de ses ailes changent en fonction de son type de poison.`,
         'pv_total'    : 344,
         'attack'      : 229,
@@ -610,7 +611,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `050`,
         'name'        : `Taupiqueur`,
-        'type1'       : `Sol`,
+        'type1'       : TYPES.SOL,
         'type2'       : ``,
         'description' : `Il vit a un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface.`,
         'pv_total'    : 224,
@@ -622,7 +623,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `051`,
         'name'        : `Triopikeur`,
-        'type1'       : `Sol`,
+        'type1'       : TYPES.SOL,
         'type2'       : ``,
         'description' : `Un groupe de Taupiqueur. Il crée des séismes en creusant à plus de 100 Km de profondeur.`,
         'pv_total'    : 274,
@@ -635,7 +636,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `052`,
         'name'        : `Miaouss`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : `Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants.`,
         'pv_total'    : 284,
@@ -647,7 +648,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `053`,
         'name'        : `Persian`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : `Très apprécié pour sa fourrure, il est difficile à apprivoiser en raison de son caractère rétif.`,
         'pv_total'    : 334,
@@ -660,7 +661,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `054`,
         'name'        : `Psykokwak`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : `Il distrait ses ennemis avec des grimaces débiles et les attaque ensuite avec ses pouvoirs Psy.`,
         'pv_total'    : 304,
@@ -672,7 +673,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `055`,
         'name'        : `Akwakwak`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : `Il nage avec élégance le long des cotes. Il est souvent confondu avec le monstre japonais: Kappa.`,
         'pv_total'    : 364,
@@ -685,7 +686,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `056`,
         'name'        : `Férosinge`,
-        'type1'       : `Combat`,
+        'type1'       : TYPES.COM,
         'type2'       : ``,
         'description' : `Il se met en colère très vite. Calme ou furieux, son humeur change d'une seconde à l'autre.`,
         'pv_total'    : 284,
@@ -697,7 +698,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `057`,
         'name'        : `Colossinge`,
-        'type1'       : `Combat`,
+        'type1'       : TYPES.COM,
         'type2'       : ``,
         'description' : `Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet.`,
         'pv_total'    : 334,
@@ -710,7 +711,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `058`,
         'name'        : `Caninos`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : `Pour protéger son territoire, il aboie et mord jusqu'à ce que les intrus s'enfuient.`,
         'pv_total'    : 314,
@@ -722,7 +723,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `059`,
         'name'        : `Arcanin`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : `Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent.`,
         'pv_total'    : 384,
@@ -735,7 +736,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `060`,
         'name'        : `Ptitard`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : `Il court mal avec ses petites pattes. Il préfère nager que de se tenir debout.`,
         'pv_total'    : 284,
@@ -747,7 +748,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `061`,
         'name'        : `Têtarte`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : `Amphibie, il peut vivre a l'air libre mais il doit rester mouillé pour survivre.`,
         'pv_total'    : 334,
@@ -759,8 +760,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `062`,
         'name'        : `Tartard`,
-        'type1'       : `Eau`,
-        'type2'       : `Combat`,
+        'type1'       : TYPES.EAU,
+        'type2'       : TYPES.COM,
         'description' : `Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique.`,
         'pv_total'    : 384,
         'attack'      : 289,
@@ -772,7 +773,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `063`,
         'name'        : `Abra`,
-        'type1'       : `Psy`,
+        'type1'       : TYPES.PSY,
         'type2'       : ``,
         'description' : `Son don de télépathie lui permet de sentir le danger et de se téléporter en un lieu sur.`,
         'pv_total'    : 254,
@@ -784,7 +785,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `064`,
         'name'        : `Kadabra`,
-        'type1'       : `Psy`,
+        'type1'       : TYPES.PSY,
         'type2'       : ``,
         'description' : `Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité.`,
         'pv_total'    : 284,
@@ -796,7 +797,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `065`,
         'name'        : `Alakazam`,
-        'type1'       : `Psy`,
+        'type1'       : TYPES.PSY,
         'type2'       : ``,
         'description' : `Son super cerveau peut effectuer des opérations à la vitesse d'un ordinateur. Il a un Q.I. de 5000.`,
         'pv_total'    : 314,
@@ -809,7 +810,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `066`,
         'name'        : `Machoc`,
-        'type1'       : `Combat`,
+        'type1'       : TYPES.COM,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 344,
@@ -821,7 +822,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `067`,
         'name'        : `Machopeur`,
-        'type1'       : `Combat`,
+        'type1'       : TYPES.COM,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 364,
@@ -833,7 +834,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `068`,
         'name'        : `Mackogneur`,
-        'type1'       : `Combat`,
+        'type1'       : TYPES.COM,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 384,
@@ -846,8 +847,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `069`,
         'name'        : `Chétiflor`,
-        'type1'       : `Plante`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSN,
         'description' : ``,
         'pv_total'    : 304,
         'attack'      : 249,
@@ -858,8 +859,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `070`,
         'name'        : `Boustiflor`,
-        'type1'       : `Plante`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSN,
         'description' : ``,
         'pv_total'    : 334,
         'attack'      : 279,
@@ -870,8 +871,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `071`,
         'name'        : `Empiflor`,
-        'type1'       : `Plante`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSN,
         'description' : ``,
         'pv_total'    : 364,
         'attack'      : 309,
@@ -883,8 +884,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `072`,
         'name'        : `Tentacool`,
-        'type1'       : `Eau`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.EAU,
+        'type2'       : TYPES.PSN,
         'description' : ``,
         'pv_total'    : 284,
         'attack'      : 179,
@@ -895,8 +896,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `073`,
         'name'        : `Tentacruel`,
-        'type1'       : `Eau`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.EAU,
+        'type2'       : TYPES.PSN,
         'description' : ``,
         'pv_total'    : 364,
         'attack'      : 239,
@@ -908,8 +909,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `074`,
         'name'        : `Racaillou`,
-        'type1'       : `Roche`,
-        'type2'       : `Sol`,
+        'type1'       : TYPES.ROC,
+        'type2'       : TYPES.SOL,
         'description' : ``,
         'pv_total'    : 284,
         'attack'      : 259,
@@ -920,8 +921,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `075`,
         'name'        : `Gravalanch`,
-        'type1'       : `Roche`,
-        'type2'       : `Sol`,
+        'type1'       : TYPES.ROC,
+        'type2'       : TYPES.SOL,
         'description' : ``,
         'pv_total'    : 314,
         'attack'      : 289,
@@ -932,8 +933,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `076`,
         'name'        : `Grolem`,
-        'type1'       : `Roche`,
-        'type2'       : `Sol`,
+        'type1'       : TYPES.ROC,
+        'type2'       : TYPES.SOL,
         'description' : ``,
         'pv_total'    : 364,
         'attack'      : 339,
@@ -945,7 +946,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `077`,
         'name'        : `Ponyta`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 304,
@@ -957,7 +958,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `078`,
         'name'        : `Galopa`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -970,8 +971,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `079`,
         'name'        : `Ramoloss`,
-        'type1'       : `Eau`,
-        'type2'       : `Psy`,
+        'type1'       : TYPES.EAU,
+        'type2'       : TYPES.PSY,
         'description' : ``,
         'pv_total'    : 384,
         'attack'      : 229,
@@ -982,8 +983,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `080`,
         'name'        : `Flagadoss`,
-        'type1'       : `Eau`,
-        'type2'       : `Psy`,
+        'type1'       : TYPES.EAU,
+        'type2'       : TYPES.PSY,
         'description' : ``,
         'pv_total'    : 394,
         'attack'      : 249,
@@ -995,7 +996,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `081`,
         'name'        : `Magnéti`,
-        'type1'       : `Électrik`,
+        'type1'       : TYPES.ELE,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 254,
@@ -1007,7 +1008,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `082`,
         'name'        : `Magnéton`,
-        'type1'       : `Électrik`,
+        'type1'       : TYPES.ELE,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 304,
@@ -1020,8 +1021,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `083`,
         'name'        : `Canarticho`,
-        'type1'       : `Normal`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.NOR,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 308,
         'attack'      : 279,
@@ -1033,8 +1034,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `084`,
         'name'        : `Doduo`,
-        'type1'       : `Normal`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.NOR,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 274,
         'attack'      : 269,
@@ -1045,8 +1046,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `085`,
         'name'        : `Dodrio`,
-        'type1'       : `Normal`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.NOR,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 324,
         'attack'      : 319,
@@ -1058,7 +1059,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `086`,
         'name'        : `Otaria`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -1070,8 +1071,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `087`,
         'name'        : `Lamantine`,
-        'type1'       : `Eau`,
-        'type2'       : `Glace`,
+        'type1'       : TYPES.EAU,
+        'type2'       : TYPES.GLA,
         'description' : ``,
         'pv_total'    : 384,
         'attack'      : 239,
@@ -1083,7 +1084,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `088`,
         'name'        : `Tadmorv`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 364,
@@ -1095,7 +1096,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `089`,
         'name'        : `Grotadmorv`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 414,
@@ -1108,7 +1109,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `090`,
         'name'        : `Kokiyas`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 264,
@@ -1120,8 +1121,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `091`,
         'name'        : `Crustabri`,
-        'type1'       : `Eau`,
-        'type2'       : `Glace`,
+        'type1'       : TYPES.EAU,
+        'type2'       : TYPES.GLA,
         'description' : ``,
         'pv_total'    : 304,
         'attack'      : 289,
@@ -1133,8 +1134,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `092`,
         'name'        : `Fantominus`,
-        'type1'       : `Spectre`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.SPE,
+        'type2'       : TYPES.PSN,
         'description' : ``,
         'pv_total'    : 264,
         'attack'      : 169,
@@ -1145,8 +1146,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `093`,
         'name'        : `Spectrum`,
-        'type1'       : `Spectre`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.SPE,
+        'type2'       : TYPES.PSN,
         'description' : ``,
         'pv_total'    : 294,
         'attack'      : 199,
@@ -1157,8 +1158,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `094`,
         'name'        : `Ectoplasma`,
-        'type1'       : `Spectre`,
-        'type2'       : `Poison`,
+        'type1'       : TYPES.SPE,
+        'type2'       : TYPES.PSN,
         'description' : ``,
         'pv_total'    : 324,
         'attack'      : 229,
@@ -1170,8 +1171,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `095`,
         'name'        : `Onix`,
-        'type1'       : `Roche`,
-        'type2'       : `Sol`,
+        'type1'       : TYPES.ROC,
+        'type2'       : TYPES.SOL,
         'description' : ``,
         'pv_total'    : 274,
         'attack'      : 189,
@@ -1183,7 +1184,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `096`,
         'name'        : `Soporifik`,
-        'type1'       : `Psy`,
+        'type1'       : TYPES.PSY,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 324,
@@ -1195,7 +1196,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `097`,
         'name'        : `Hypnomade`,
-        'type1'       : `Psy`,
+        'type1'       : TYPES.PSY,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 374,
@@ -1208,7 +1209,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `098`,
         'name'        : `Krabby`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 264,
@@ -1220,7 +1221,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `099`,
         'name'        : `Krabboss`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 314,
@@ -1233,7 +1234,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `100`,
         'name'        : `Voltorbe`,
-        'type1'       : `Électrik`,
+        'type1'       : TYPES.ELE,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 284,
@@ -1245,7 +1246,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `101`,
         'name'        : `Hypnomade`,
-        'type1'       : `Électrik`,
+        'type1'       : TYPES.ELE,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 324,
@@ -1258,8 +1259,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `102`,
         'name'        : `Noeunoeuf`,
-        'type1'       : `Plante`,
-        'type2'       : `Psy`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSY,
         'description' : ``,
         'pv_total'    : 324,
         'attack'      : 179,
@@ -1270,8 +1271,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `103`,
         'name'        : `Noadkoko`,
-        'type1'       : `Plante`,
-        'type2'       : `Psy`,
+        'type1'       : TYPES.PLA,
+        'type2'       : TYPES.PSY,
         'description' : ``,
         'pv_total'    : 394,
         'attack'      : 289,
@@ -1283,7 +1284,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `104`,
         'name'        : `Osselait`,
-        'type1'       : `Sol`,
+        'type1'       : TYPES.SOL,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 304,
@@ -1295,7 +1296,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `105`,
         'name'        : `Ossatueur`,
-        'type1'       : `Sol`,
+        'type1'       : TYPES.SOL,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 324,
@@ -1308,7 +1309,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `106`,
         'name'        : `Kicklee`,
-        'type1'       : `Combat`,
+        'type1'       : TYPES.COM,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 304,
@@ -1321,7 +1322,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `107`,
         'name'        : `Tygnon`,
-        'type1'       : `Combat`,
+        'type1'       : TYPES.COM,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 304,
@@ -1334,7 +1335,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `108`,
         'name'        : `Excelangue`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 384,
@@ -1347,7 +1348,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `109`,
         'name'        : `Smogo`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 284,
@@ -1359,7 +1360,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `110`,
         'name'        : `Smogogo`,
-        'type1'       : `Poison`,
+        'type1'       : TYPES.PSN,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -1372,8 +1373,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `111`,
         'name'        : `Rhinocorne`,
-        'type1'       : `Sol`,
-        'type2'       : `Roche`,
+        'type1'       : TYPES.SOL,
+        'type2'       : TYPES.ROC,
         'description' : ``,
         'pv_total'    : 364,
         'attack'      : 269,
@@ -1384,8 +1385,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `112`,
         'name'        : `Rhinoféros`,
-        'type1'       : `Sol`,
-        'type2'       : `Roche`,
+        'type1'       : TYPES.SOL,
+        'type2'       : TYPES.ROC,
         'description' : ``,
         'pv_total'    : 414,
         'attack'      : 359,
@@ -1397,7 +1398,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `113`,
         'name'        : `Leveinard`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 704,
@@ -1410,7 +1411,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `114`,
         'name'        : `Saquedeneu`,
-        'type1'       : `Plante`,
+        'type1'       : TYPES.PLA,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -1423,7 +1424,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `115`,
         'name'        : `Kangourex`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 414,
@@ -1436,7 +1437,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `116`,
         'name'        : `Hypotrempe`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 264,
@@ -1448,7 +1449,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `117`,
         'name'        : `Hypocéan`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 314,
@@ -1461,7 +1462,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `118`,
         'name'        : `Poissirène`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 294,
@@ -1473,7 +1474,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `119`,
         'name'        : `Poissoroy`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 364,
@@ -1486,7 +1487,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `120`,
         'name'        : `Stari`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 264,
@@ -1498,7 +1499,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `121`,
         'name'        : `Staross`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 324,
@@ -1511,7 +1512,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `122`,
         'name'        : `M. Mime`,
-        'type1'       : `Psy`,
+        'type1'       : TYPES.PSY,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 284,
@@ -1524,8 +1525,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `123`,
         'name'        : `Insécateur`,
-        'type1'       : `Insecte`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.INS,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 344,
         'attack'      : 319,
@@ -1537,8 +1538,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `124`,
         'name'        : `Lippoutou`,
-        'type1'       : `Glace`,
-        'type2'       : `Psy`,
+        'type1'       : TYPES.GLA,
+        'type2'       : TYPES.PSY,
         'description' : ``,
         'pv_total'    : 334,
         'attack'      : 199,
@@ -1550,7 +1551,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `125`,
         'name'        : `Élektek`,
-        'type1'       : `Électrik`,
+        'type1'       : TYPES.ELE,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -1563,7 +1564,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `126`,
         'name'        : `Magmar`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -1576,7 +1577,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `127`,
         'name'        : `Scarabrute`,
-        'type1'       : `Insecte`,
+        'type1'       : TYPES.INS,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -1589,7 +1590,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `128`,
         'name'        : `Tauros`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 354,
@@ -1602,7 +1603,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `129`,
         'name'        : `Magicarpe`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 244,
@@ -1614,8 +1615,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `130`,
         'name'        : `Léviator`,
-        'type1'       : `Eau`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.EAU,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 394,
         'attack'      : 349,
@@ -1627,8 +1628,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `131`,
         'name'        : `Lokhlass`,
-        'type1'       : `Eau`,
-        'type2'       : `Glace`,
+        'type1'       : TYPES.EAU,
+        'type2'       : TYPES.GLA,
         'description' : ``,
         'pv_total'    : 464,
         'attack'      : 269,
@@ -1640,7 +1641,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `132`,
         'name'        : `Métamorph`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 300,
@@ -1653,7 +1654,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `133`,
         'name'        : `Évoli`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 314,
@@ -1665,7 +1666,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `134`,
         'name'        : `Aquali`,
-        'type1'       : `Eau`,
+        'type1'       : TYPES.EAU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 464,
@@ -1677,7 +1678,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `135`,
         'name'        : `Voltali`,
-        'type1'       : `Électrik`,
+        'type1'       : TYPES.ELE,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -1689,7 +1690,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `136`,
         'name'        : `Pyroli`,
-        'type1'       : `Feu`,
+        'type1'       : TYPES.FEU,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -1702,7 +1703,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `137`,
         'name'        : `Porygon`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 334,
@@ -1715,8 +1716,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `138`,
         'name'        : `Amonita`,
-        'type1'       : `Roche`,
-        'type2'       : `Eau`,
+        'type1'       : TYPES.ROC,
+        'type2'       : TYPES.EAU,
         'description' : ``,
         'pv_total'    : 274,
         'attack'      : 179,
@@ -1727,8 +1728,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `139`,
         'name'        : `Amonistar`,
-        'type1'       : `Roche`,
-        'type2'       : `Eau`,
+        'type1'       : TYPES.ROC,
+        'type2'       : TYPES.EAU,
         'description' : ``,
         'pv_total'    : 344,
         'attack'      : 219,
@@ -1740,8 +1741,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `140`,
         'name'        : `Kabuto`,
-        'type1'       : `Roche`,
-        'type2'       : `Eau`,
+        'type1'       : TYPES.ROC,
+        'type2'       : TYPES.EAU,
         'description' : ``,
         'pv_total'    : 264,
         'attack'      : 259,
@@ -1752,8 +1753,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `141`,
         'name'        : `Kabutops`,
-        'type1'       : `Roche`,
-        'type2'       : `Eau`,
+        'type1'       : TYPES.ROC,
+        'type2'       : TYPES.EAU,
         'description' : ``,
         'pv_total'    : 324,
         'attack'      : 329,
@@ -1765,8 +1766,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `142`,
         'name'        : `Ptéra`,
-        'type1'       : `Roche`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.ROC,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 364,
         'attack'      : 309,
@@ -1778,7 +1779,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `143`,
         'name'        : `Ronflex`,
-        'type1'       : `Normal`,
+        'type1'       : TYPES.NOR,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 524,
@@ -1791,8 +1792,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `144`,
         'name'        : `Artikodin`,
-        'type1'       : `Glace`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.GLA,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 384,
         'attack'      : 269,
@@ -1804,8 +1805,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `145`,
         'name'        : `Électhor`,
-        'type1'       : `Électrik`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.ELE,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 384,
         'attack'      : 279,
@@ -1817,8 +1818,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `146`,
         'name'        : `Sulfura`,
-        'type1'       : `Feu`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.FEU,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 384,
         'attack'      : 299,
@@ -1830,7 +1831,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `147`,
         'name'        : `Minidraco`,
-        'type1'       : `Dragon`,
+        'type1'       : TYPES.DRA,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 286,
@@ -1842,7 +1843,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `148`,
         'name'        : `Draco`,
-        'type1'       : `Dragon`,
+        'type1'       : TYPES.DRA,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 326,
@@ -1854,8 +1855,8 @@ export const POKEMONS_LIST = [
     {
         'id'          : `149`,
         'name'        : `Dracolosse`,
-        'type1'       : `Dragon`,
-        'type2'       : `Vol`,
+        'type1'       : TYPES.DRA,
+        'type2'       : TYPES.VOL,
         'description' : ``,
         'pv_total'    : 386,
         'attack'      : 367,
@@ -1867,7 +1868,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `150`,
         'name'        : `Mewtwo`,
-        'type1'       : `Psy`,
+        'type1'       : TYPES.PSY,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 416,
@@ -1880,7 +1881,7 @@ export const POKEMONS_LIST = [
     {
         'id'          : `151`,
         'name'        : `Mew`,
-        'type1'       : `Psy`,
+        'type1'       : TYPES.PSY,
         'type2'       : ``,
         'description' : ``,
         'pv_total'    : 404,

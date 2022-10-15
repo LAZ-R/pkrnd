@@ -56,6 +56,7 @@ export const renderView = () => {
     const burgerMenu = LAZR.DOM.createElement('div', 'burgerMenu', 'burger-menu', `
         <div class="burger-menu-pages">
             <a href="./" class="burger-menu-page">Accueil</a>
+            <a href="./?page=pokedex" class="burger-menu-page">Pokédex</a>
         </div>
         <div class="burger-menu-bottom">
             <div class="burger-menu-utils">   

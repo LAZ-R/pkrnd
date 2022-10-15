@@ -13,6 +13,11 @@ if (STORAGE.getItem(`${appShortName}FirstTime`) === null) {
                         id: 'keepScreenAwake',
                         name: `Laisser l'écran allumé lorsque l'application est en route`,
                         isActive: true
+                    },
+                    {
+                        id: 'enableMusic',
+                        name: `Musique`,
+                        isActive: true
                     }
                 ]
             },
