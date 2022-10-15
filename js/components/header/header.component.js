@@ -7,7 +7,7 @@ export const renderView = () => {
     const headerIndexLink = LAZR.DOM.createElement('a', '', 'header-index-link', '');
     headerIndexLink.setAttribute('href', './');
 
-    const headerLogo = LAZR.DOM.createImgElement('headerLogo', 'header-logo', './images/poke_ball_icon_512.png', 'lazr logo');
+    const headerLogo = LAZR.DOM.createImgElement('headerLogo', 'header-logo', './medias/images/poke_ball_icon_512.png', 'lazr logo');
     
     headerIndexLink.appendChild(headerLogo);
     header.appendChild(headerIndexLink);
