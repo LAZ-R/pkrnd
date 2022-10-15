@@ -4,6 +4,7 @@ export const renderPage = () => {
 
     const mainTheme = new Audio('./medias/music/main-theme.ogg');
     mainTheme.play();
+    mainTheme.loop = true;
 
     /* --------------------------------------------------------------------- */
     const pageTitle = LAZR.APP_DATA.getAppName();
