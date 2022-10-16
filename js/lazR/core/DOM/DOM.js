@@ -41,3 +41,34 @@ export const createElement = (element, id, className, innerHtml) => {
 export const createImgElement = (id, className, src, alt) => {
     return getElementFromHTMLString(`<img id="${id}" class="${className}" src="${src}" alt="${alt}">`)
 }
+
+/**
+ * 
+ * @param {HTMLElement} htmlelement 
+ * @param {Integer} sensitivity 
+ * @param {Function} functionForLeftSwipe 
+ * @param {Function} functionForRightSwipe 
+ */
+ export const handleSwipe = (htmlelement, sensitivity, onLeftSwipeFunction, onRightSwipeFunction) => {
+    let touchstartX = 0; 
+    let touchendX = 0; 
+  
+    let finalSensitivity = sensitivity ? sensitivity : 111;
+    
+    // Ajout des Event Listener pour capter le mouvement
+    
+    // position au début du mouvement
+    htmlelement.addEventListener('touchstart', e => {
+        touchstartX = e.changedTouches[0].screenX;
+    })
+    
+    // position à la fin du mouvement
+    htmlelement.addEventListener('touchend', e => {
+        touchendX = e.changedTouches[0].screenX;
+        let difference = touchstartX - touchendX;
+        // traitement si swipe gauche
+        if (difference > finalSensitivity) { onLeftSwipeFunction.apply() }
+        // traitement si swipe droite
+        if (difference < -finalSensitivity) { onRightSwipeFunction.apply(); }
+    });
+  };

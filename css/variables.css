@@ -66,6 +66,8 @@
      SIZES
     ========================== */
 
+    --border-radius: 10px;
+
     --type-icon-diameter: 35px;
 
     --doc-height: 100%;

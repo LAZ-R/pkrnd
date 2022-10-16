@@ -4,6 +4,7 @@ import * as FOOTER from '../components/footer/footer.component.js'
 
 import * as PAGE_INDEX from './pages/index/index.page.js'
 import * as PAGE_POKEDEX from './pages/pokedex/pokedex.page.js'
+import * as PAGE_POKEMON from './pages/pokemon/pokemon.page.js'
 import * as PAGE_ABOUT from './pages/about/about.page.js'
 import * as PAGE_JSON_WIZARD from './pages/jsonWizard/jsonWizard.page.js'
 import * as PAGE_SETTINGS from './pages/settings/settings.page.js'
@@ -21,6 +22,9 @@ if (LAZR.BREAKPOINTS.isLaptopOrUp) {
 switch (page) {
     case 'pokedex':
         MAIN.appendChild(PAGE_POKEDEX.renderPage());
+        break;
+    case 'pokemon':
+        MAIN.appendChild(PAGE_POKEMON.renderPage());
         break;
     case 'about':
         MAIN.appendChild(PAGE_ABOUT.renderPage());
