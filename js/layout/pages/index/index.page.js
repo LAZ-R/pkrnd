@@ -41,12 +41,12 @@ const renderPokemonsArea = (pokemon1, pokemon2) => {
 
                 <div class="index-top-part-sub index-player-combat-set-area">
                     <div class="index-combat-set-row">
-                        <div class="index-attack-area"><span>${pokemon1.combatAttackSet[0].name.toUpperCase()}</span>${renderTypeImage(pokemon1.combatAttackSet[0].type)}</div>
-                        <div class="index-attack-area"><span>${pokemon1.combatAttackSet[1].name.toUpperCase()}</span>${renderTypeImage(pokemon1.combatAttackSet[1].type)}</div>
+                        <div class="index-attack-area">${pokemon1.combatAttackSet[0].name != '' ? `<span>${pokemon1.combatAttackSet[0].name.toUpperCase()}</span>${renderTypeImage(pokemon1.combatAttackSet[0].type)}` : '-'}</div>
+                        <div class="index-attack-area">${pokemon1.combatAttackSet[1].name != '' ? `<span>${pokemon1.combatAttackSet[1].name.toUpperCase()}</span>${renderTypeImage(pokemon1.combatAttackSet[1].type)}` : '-'}</div>
                     </div>
                     <div class="index-combat-set-row">
-                        <div class="index-attack-area"><span>${pokemon1.combatAttackSet[2].name.toUpperCase()}</span>${renderTypeImage(pokemon1.combatAttackSet[2].type)}</div>
-                        <div class="index-attack-area"><span>${pokemon1.combatAttackSet[3].name.toUpperCase()}</span>${renderTypeImage(pokemon1.combatAttackSet[3].type)}</div>
+                        <div class="index-attack-area">${pokemon1.combatAttackSet[2].name != '' ? `<span>${pokemon1.combatAttackSet[2].name.toUpperCase()}</span>${renderTypeImage(pokemon1.combatAttackSet[2].type)}` : '-'}</div>
+                        <div class="index-attack-area">${pokemon1.combatAttackSet[3].name != '' ? `<span>${pokemon1.combatAttackSet[3].name.toUpperCase()}</span>${renderTypeImage(pokemon1.combatAttackSet[3].type)}` : '-'}</div>
                     </div>
                 </div>
         </div>
