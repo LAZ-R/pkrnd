@@ -1,5 +1,26 @@
 /* Put here any 'index.html' specific css */
 
+@keyframes bgScroll {
+    0% {
+      background-position : 0px 0px
+    }
+    100% {
+      background-position : -1616px 1616px
+    }
+}
+
+@keyframes rotateForever {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .index-page {
     transition: opacity .2s linear;
 }

@@ -25,7 +25,7 @@ const renderPokemonsArea = (pokemon1, pokemon2) => {
                 </div>
 
                 <div class="index-top-part-sub index-versus-area">
-                    <img src="./medias/images/font-awsome/arrows-rotate-solid.svg" style="height:100%; filter: ${radomizeFilter};" onclick="changePokemons()"/>
+                    <img src="./medias/images/font-awsome/arrows-rotate-solid.svg" style="height:100%; filter: ${radomizeFilter}; animation: rotateForever 10s linear infinite" onclick="changePokemons()"/>
                 </div>
 
                 <div class="index-top-part-sub index-player-area">
@@ -89,6 +89,10 @@ export const renderPage = () => {
     `);
 
     /* --------------------------------------------------------------------- */
+
+    document.getElementById('body').style.backgroundImage = 'url("../../../../medias/images/background.png")';
+    document.getElementById('body').style.animation = 'bgScroll 30s linear infinite';
+    document.getElementById('body').style.backgroundSize = '20%';
     
     return page;
 }
