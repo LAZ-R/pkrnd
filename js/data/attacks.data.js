@@ -18,7 +18,7 @@ export const ATTACKS_LIST = [
     {
         'id'           : 'CS01',
         'name'         : 'Coupe',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 50,
         'accuracy'     : 95,
@@ -59,7 +59,7 @@ export const ATTACKS_LIST = [
     {
         'id'           : 'CS02',
         'name'         : 'Vol',
-        'type'         : 'Vol',
+        'type'         : 'VOL',
         'class'        : 'Physique',
         'power'        : 70,
         'accuracy'     : 95,
@@ -84,7 +84,7 @@ export const ATTACKS_LIST = [
     {
         'id'           : 'CS03',
         'name'         : 'Surf',
-        'type'         : 'Eau',
+        'type'         : 'EAU',
         'class'        : 'Spéciale',
         'power'        : 95,
         'accuracy'     : 100,
@@ -136,7 +136,7 @@ export const ATTACKS_LIST = [
     {
         'id'           : 'CS04',
         'name'         : 'Force',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 80,
         'accuracy'     : 100,
@@ -201,7 +201,7 @@ export const ATTACKS_LIST = [
     {
         'id'           : 'CS05',
         'name'         : 'Flash',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 70,
@@ -243,7 +243,7 @@ export const ATTACKS_LIST = [
     {
         'id'           : 'CT01',
         'name'         : 'Ultimapoing',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 80,
         'accuracy'     : 85,
@@ -302,7 +302,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT02',
         'name'         : 'Coupe-Vent',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 80,
         'accuracy'     : 75,
@@ -330,7 +330,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT03',
         'name'         : 'Danse-Lames',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 0,
@@ -371,7 +371,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT04',
         'name'         : 'Cyclone',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 85,
@@ -399,7 +399,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT05',
         'name'         : 'Ultimawashi',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 120,
         'accuracy'     : 75,
@@ -460,7 +460,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT06',
         'name'         : 'Toxik',
-        'type'         : 'Poison',
+        'type'         : 'POISON',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 85,
@@ -622,7 +622,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT07',
         'name'         : 'Empal\'Korne',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 0,
         'accuracy'     : 30,
@@ -651,7 +651,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT08',
         'name'         : 'Plaquage',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 85,
         'accuracy'     : 100,
@@ -765,7 +765,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT09',
         'name'         : 'Bélier',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 90,
         'accuracy'     : 85,
@@ -915,7 +915,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT10',
         'name'         : 'Damoclès',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 100,
         'accuracy'     : 100,
@@ -1069,7 +1069,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT11',
         'name'         : 'Bulles d\'O',
-        'type'         : 'Eau',
+        'type'         : 'EAU',
         'class'        : 'Spéciale',
         'power'        : 65,
         'accuracy'     : 100,
@@ -1137,7 +1137,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT12',
         'name'         : 'Pistolet à O',
-        'type'         : 'Eau',
+        'type'         : 'EAU',
         'class'        : 'Spéciale',
         'power'        : 40,
         'accuracy'     : 100,
@@ -1205,7 +1205,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT13',
         'name'         : 'Laser Glace',
-        'type'         : 'Glace',
+        'type'         : 'GLACE',
         'class'        : 'Spéciale',
         'power'        : 95,
         'accuracy'     : 100,
@@ -1274,7 +1274,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT14',
         'name'         : 'Blizzard',
-        'type'         : 'Glace',
+        'type'         : 'GLACE',
         'class'        : 'Spéciale',
         'power'        : 120,
         'accuracy'     : 90,
@@ -1344,7 +1344,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT15',
         'name'         : 'Ultralaser',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 150,
         'accuracy'     : 90,
@@ -1432,7 +1432,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT16',
         'name'         : 'Jackpot',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 40,
         'accuracy'     : 100,
@@ -1460,7 +1460,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT17',
         'name'         : 'Sacrifice',
-        'type'         : 'Combat',
+        'type'         : 'COMBAT',
         'class'        : 'Physique',
         'power'        : 80,
         'accuracy'     : 80,
@@ -1470,7 +1470,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT18',
         'name'         : 'Riposte',
-        'type'         : 'Combat',
+        'type'         : 'COMBAT',
         'class'        : 'Physique',
         'power'        : 0,
         'accuracy'     : 100,
@@ -1480,7 +1480,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT19',
         'name'         : 'Frappe Atlas',
-        'type'         : 'Combat',
+        'type'         : 'COMBAT',
         'class'        : 'Physique',
         'power'        : 0,
         'accuracy'     : 100,
@@ -1490,7 +1490,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT20',
         'name'         : 'Frénésie',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 20,
         'accuracy'     : 100,
@@ -1500,7 +1500,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT21',
         'name'         : 'Méga-Sangsue',
-        'type'         : 'Plante',
+        'type'         : 'PLANTE',
         'class'        : 'Spéciale',
         'power'        : 40,
         'accuracy'     : 100,
@@ -1510,7 +1510,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT22',
         'name'         : 'Lance-Soleil',
-        'type'         : 'Plante',
+        'type'         : 'PLANTE',
         'class'        : 'Spéciale',
         'power'        : 120,
         'accuracy'     : 100,
@@ -1520,7 +1520,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT23',
         'name'         : 'Draco-Rage',
-        'type'         : 'Dragon',
+        'type'         : 'DRAGON',
         'class'        : 'Spéciale',
         'power'        : 0,
         'accuracy'     : 100,
@@ -1530,7 +1530,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT24',
         'name'         : 'Tonerre',
-        'type'         : 'Électrik',
+        'type'         : 'ELECTRIK',
         'class'        : 'Spéciale',
         'power'        : 95,
         'accuracy'     : 100,
@@ -1540,7 +1540,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT25',
         'name'         : 'Fatal-Foudre',
-        'type'         : 'Électrik',
+        'type'         : 'ELECTRIK',
         'class'        : 'Spéciale',
         'power'        : 120,
         'accuracy'     : 70,
@@ -1550,7 +1550,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT26',
         'name'         : 'Séisme',
-        'type'         : 'Sol',
+        'type'         : 'SOL',
         'class'        : 'Physique',
         'power'        : 100,
         'accuracy'     : 100,
@@ -1560,7 +1560,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT27',
         'name'         : 'Abîme',
-        'type'         : 'Sol',
+        'type'         : 'SOL',
         'class'        : 'Physique',
         'power'        : 0,
         'accuracy'     : 30,
@@ -1570,7 +1570,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT28',
         'name'         : 'Tunnel',
-        'type'         : 'Sol',
+        'type'         : 'SOL',
         'class'        : 'Physique',
         'power'        : 100,
         'accuracy'     : 100,
@@ -1580,7 +1580,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT29',
         'name'         : 'Psyko',
-        'type'         : 'Psy',
+        'type'         : 'PSY',
         'class'        : 'Spéciale',
         'power'        : 90,
         'accuracy'     : 100,
@@ -1590,7 +1590,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT30',
         'name'         : 'Téléport',
-        'type'         : 'Psy',
+        'type'         : 'PSY',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 0,
@@ -1600,7 +1600,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT31',
         'name'         : 'Copie',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 100,
@@ -1610,7 +1610,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT32',
         'name'         : 'Reflet',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 0,
@@ -1620,7 +1620,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT33',
         'name'         : 'Protection',
-        'type'         : 'Psy',
+        'type'         : 'PSY',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 0,
@@ -1630,7 +1630,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT34',
         'name'         : 'Patience',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 0,
         'accuracy'     : 0,
@@ -1640,7 +1640,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT35',
         'name'         : 'Métronome',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 0,
@@ -1650,7 +1650,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT36',
         'name'         : 'Destruction',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 130,
         'accuracy'     : 100,
@@ -1660,7 +1660,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT37',
         'name'         : 'Bomb\'Œuf',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 100,
         'accuracy'     : 75,
@@ -1670,7 +1670,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT38',
         'name'         : 'Déflagration',
-        'type'         : 'Feu',
+        'type'         : 'FEU',
         'class'        : 'Spéciale',
         'power'        : 120,
         'accuracy'     : 85,
@@ -1680,7 +1680,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT39',
         'name'         : 'Météores',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 60,
         'accuracy'     : 0,
@@ -1690,7 +1690,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT40',
         'name'         : 'Coud\'Krâne',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 100,
         'accuracy'     : 100,
@@ -1700,7 +1700,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT41',
         'name'         : 'E-Coque',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 0,
@@ -1710,7 +1710,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT42',
         'name'         : 'Dévorêve',
-        'type'         : 'Psy',
+        'type'         : 'PSY',
         'class'        : 'Spéciale',
         'power'        : 100,
         'accuracy'     : 100,
@@ -1720,7 +1720,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT43',
         'name'         : 'Piqué',
-        'type'         : 'Vol',
+        'type'         : 'VOL',
         'class'        : 'Physique',
         'power'        : 140,
         'accuracy'     : 90,
@@ -1730,7 +1730,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT44',
         'name'         : 'Repos',
-        'type'         : 'Psy',
+        'type'         : 'PSY',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 0,
@@ -1740,7 +1740,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT45',
         'name'         : 'Cage Éclair',
-        'type'         : 'Électrik',
+        'type'         : 'ELECTRIK',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 100,
@@ -1750,7 +1750,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT46',
         'name'         : 'Vague Psy',
-        'type'         : 'Psy',
+        'type'         : 'PSY',
         'class'        : 'Spéciale',
         'power'        : 0,
         'accuracy'     : 80,
@@ -1760,7 +1760,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT47',
         'name'         : 'Explosion',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 170,
         'accuracy'     : 100,
@@ -1770,7 +1770,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT48',
         'name'         : 'Éboulement',
-        'type'         : 'Roche',
+        'type'         : 'ROCHE',
         'class'        : 'Physique',
         'power'        : 75,
         'accuracy'     : 90,
@@ -1780,7 +1780,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT49',
         'name'         : 'Triplattaque',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Physique',
         'power'        : 80,
         'accuracy'     : 100,
@@ -1790,7 +1790,7 @@ export const ATTACKS_LIST = [
       {
         'id'           : 'CT50',
         'name'         : 'Clonage',
-        'type'         : 'Normal',
+        'type'         : 'NORMAL',
         'class'        : 'Statut',
         'power'        : 0,
         'accuracy'     : 0,
@@ -1807,7 +1807,7 @@ export const ATTACKS_LIST = [
         {
             'id'           : 'BA13',
             'name'         : 'Pistolet à O',
-            'type'         : 'Eau',
+            'type'         : 'EAU',
             'class'        : 'Spéciale',
             'power'        : 40,
             'accuracy'     : 100,
@@ -1819,7 +1819,7 @@ export const ATTACKS_LIST = [
         {
             'id'           : 'BA25',
             'name'         : 'Flammèche',
-            'type'         : 'Feu',
+            'type'         : 'FEU',
             'class'        : 'Spéciale',
             'power'        : 15,
             'accuracy'     : 70,
@@ -1828,11 +1828,11 @@ export const ATTACKS_LIST = [
         },
         // Glace
         // Insect
-        // Normal
+        // NORMAL
         {
             'id'           : 'BA84',
             'name'         : 'Charge',
-            'type'         : 'Normal',
+            'type'         : 'NORMAL',
             'class'        : 'Physique',
             'power'        : 35,
             'accuracy'     : 95,
@@ -1842,7 +1842,7 @@ export const ATTACKS_LIST = [
         {
             'id'           : 'BA87',
             'name'         : 'Griffe',
-            'type'         : 'Normal',
+            'type'         : 'NORMAL',
             'class'        : 'Physique',
             'power'        : 40,
             'accuracy'     : 100,
@@ -1853,7 +1853,7 @@ export const ATTACKS_LIST = [
         {
             'id'           : 'BA122',
             'name'         : 'Fouet-Lianes',
-            'type'         : 'Plante',
+            'type'         : 'PLANTE',
             'class'        : 'Spéciale',
             'power'        : 35,
             'accuracy'     : 100,

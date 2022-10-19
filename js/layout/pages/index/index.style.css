@@ -1,1 +1,176 @@
 /* Put here any 'index.html' specific css */
+
+.index-page {
+    transition: opacity .2s linear;
+}
+
+.index-sub-part {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.index-top-part {
+    height: 90%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: var(--horizontal-padding);
+}
+
+.index-top-part-sub {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.index-rival-area {
+    height: 35%;
+}
+
+.index-versus-area {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    padding: 2.5%;
+}
+
+.index-player-area {
+    height: 35%;
+    border-radius: 10px 10px 0 0;
+}
+
+.index-sprite-area {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.rival-sprite-area {
+    border-radius: 0 0 10px 10px;
+}
+
+.player-sprite-area {
+    border-radius: 10px 10px 0 0;
+}
+
+.index-sprite {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.index-pokemon-infos-area {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 25%;
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: var(--gray-70);
+    color: var(--gray-10);
+    font-family: Roboto-Bold;
+    font-size: larger;
+}
+.index-pokemon-infos-area > span:first-child {
+    width: 25%;
+    justify-content: flex-start;
+}
+.index-pokemon-infos-area > div {
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.rival-pokemon-infos {
+    border-radius: 10px 10px 0 0;
+    border-bottom: 5px solid var(--pokemon-blue);
+}
+
+.player-pokemon-infos {
+    border-radius: 0;
+    border-top: 5px solid var(--pokemon-red);
+}
+
+.index-player-combat-set-area {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: var(--gray-60);
+    height: 25%;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    padding: 0 20px;
+}
+
+.index-combat-set-row {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.index-attack-area {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--gray-85);
+    padding: 2px 15px;
+    font-family: Roboto-Bold;
+    font-size: small;
+}
+
+.index-attack-area > div {
+    transform: scale(.75);
+}
+
+.index-bottom-part {
+    height: 10%;
+    padding: 0 var(--horizontal-padding) var(--horizontal-padding) var(--horizontal-padding);
+}
+
+.index-bottom-part > button {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--pokemon-red);
+    border-radius: 10px;
+    font-family: Roboto-Black;
+    font-size: 25px;
+    color: #ffffff;
+    border: none;
+    padding: 0;
+}
+.index-bottom-part > button:hover, .index-bottom-part > button:focus {
+    background-color: var(--pokemon-red);
+    color: #ffffff;
+    border: none;
+}
