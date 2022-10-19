@@ -90,7 +90,7 @@ export const renderPage = () => {
 
     /* --------------------------------------------------------------------- */
 
-    document.getElementById('body').style.backgroundImage = 'url("../../../../medias/images/background.png")';
+    document.getElementById('body').style.backgroundImage = 'url("./medias/images/background.png")';
     document.getElementById('body').style.animation = 'bgScroll 30s linear infinite';
     document.getElementById('body').style.backgroundSize = '20%';
     
