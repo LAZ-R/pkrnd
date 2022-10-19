@@ -1,6 +1,6 @@
 import * as LAZR from '../../../lazR/lazR.js';
 import * as POKEMONS_SERVICE from '../../../services/pokemons.service.js'
-import { CombatPokemon } from '../../../types/combatPokemon.type.js';
+import { CombatPokemon } from '../../../types/CombatPokemon.type.js';
 import { renderTypeImage } from '../../../components/typeImage/typeImage.component.js';
 
 let pokemon1 = new CombatPokemon(POKEMONS_SERVICE.getRandomPokemon());
