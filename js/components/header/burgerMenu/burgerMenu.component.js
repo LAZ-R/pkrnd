@@ -78,6 +78,7 @@ export const renderView = () => {
         <div class="burger-menu-pages">
             <a href="./" class="burger-menu-page">Accueil</a>
             <a href="./?page=pokedex" class="burger-menu-page">Pokédex</a>
+            <a href="./?page=typesTable" class="burger-menu-page">Table des Types</a>
         </div>
         <div class="burger-menu-bottom">
             <div class="burger-menu-utils">   

@@ -5,6 +5,7 @@ import * as FOOTER from '../components/footer/footer.component.js'
 import * as PAGE_INDEX from './pages/index/index.page.js'
 import * as PAGE_POKEDEX from './pages/pokedex/pokedex.page.js'
 import * as PAGE_POKEMON from './pages/pokemon/pokemon.page.js'
+import * as PAGE_TABLE from './pages/typesTable/typesTable.page.js'
 import * as PAGE_ABOUT from './pages/about/about.page.js'
 import * as PAGE_JSON_WIZARD from './pages/jsonWizard/jsonWizard.page.js'
 import * as PAGE_SETTINGS from './pages/settings/settings.page.js'
@@ -25,6 +26,9 @@ switch (page) {
         break;
     case 'pokemon':
         MAIN.appendChild(PAGE_POKEMON.renderPage());
+        break;
+    case 'typesTable':
+        MAIN.appendChild(PAGE_TABLE.renderPage());
         break;
     case 'about':
         MAIN.appendChild(PAGE_ABOUT.renderPage());

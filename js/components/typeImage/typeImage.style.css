@@ -6,6 +6,7 @@
     height: var(--type-icon-diameter);
     width: var(--type-icon-diameter);
     border-radius: 50%;
+    aspect-ratio: 1/1;
 }
 
 .type-icon {

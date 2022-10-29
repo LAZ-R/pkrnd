@@ -8,22 +8,33 @@ if (STORAGE.getItem(`${appShortName}FirstTime`) === null) {
         settings: [
             {
                 id: 1,
-                name: '',
+                name: 'Écran',
                 settings: [
                     {
                         id: 'keepScreenAwake',
                         name: `Laisser l'écran allumé lorsque l'application est en route`,
-                        isActive: true
-                    },
-                    {
-                        id: 'enableMusic',
-                        name: `Musique`,
                         isActive: true
                     }
                 ]
             },
             {
                 id: 2,
+                name: 'Audio',
+                settings: [
+                    {
+                        id: 'enableMenuMusic',
+                        name: `Musique - menu`,
+                        isActive: true
+                    },
+                    {
+                        id: 'enableMenuSound',
+                        name: `Effets sonores - menu`,
+                        isActive: true
+                    }
+                ]
+            },
+            {
+                id: 3,
                 name: 'Advanced',
                 settings: [
                     {

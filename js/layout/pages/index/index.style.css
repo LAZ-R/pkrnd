@@ -166,8 +166,18 @@
     font-size: small;
 }
 
+.index-attack-area > span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
 .index-attack-area > div {
-    transform: scale(.75);
+    transform-origin: 100% 50%;
+    transform: scale(.65);
+    aspect-ratio: 1/1;
+    width: fit-content;
 }
 
 .index-bottom-part {

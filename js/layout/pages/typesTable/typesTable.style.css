@@ -1,0 +1,71 @@
+/* Put here any 'typesTable' specific css */
+
+.table-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.table-row {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content;
+}
+
+.table-cell {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.25%;
+    height: 30px;
+    border: 1px solid var(--gray-70);
+    font-size: 10px;
+}
+
+.very-effective {
+    background-color: #31492c;
+}
+
+.not-very-effective {
+    background-color: #795534;
+}
+
+.uneffective {
+    background-color: #7c2e2e;
+}
+
+.table-cell > div {
+    aspect-ratio: 100%/1;
+    transform: scale(.45);
+}
+
+.origin-cell {
+    flex-direction: column;
+    font-size: 8px;
+    padding: 2px 2px
+}
+.origin-cell > span:first-child {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
+}
+
+.origin-cell > span:last-child {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 50%;
+}

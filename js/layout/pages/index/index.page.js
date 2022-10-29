@@ -8,7 +8,7 @@ pokemon1.logToConsole();
 let pokemon2 = new CombatPokemon(POKEMONS_SERVICE.getRandomPokemon());
 pokemon2.logToConsole();
 
-const radomizeFilter = LAZR.CSS.getFilterStringForHexValue(LAZR.CSS.getCssRootVariableValue('--gray-30'));
+const randomizeFilter = LAZR.CSS.getFilterStringForHexValue(LAZR.CSS.getCssRootVariableValue('--gray-30'));
 
 const renderPokemonsArea = (pokemon1, pokemon2) => {
     return `
@@ -25,7 +25,7 @@ const renderPokemonsArea = (pokemon1, pokemon2) => {
                 </div>
 
                 <div class="index-top-part-sub index-versus-area">
-                    <img src="./medias/images/font-awsome/arrows-rotate-solid.svg" style="height:100%; filter: ${radomizeFilter}; animation: rotateForever 10s linear infinite" onclick="changePokemons()"/>
+                    <img src="./medias/images/font-awsome/arrows-rotate-solid.svg" style="height:85%; filter: ${randomizeFilter}; animation: rotateForever 10s linear infinite" onclick="changePokemons()"/>
                 </div>
 
                 <div class="index-top-part-sub index-player-area">
@@ -74,7 +74,7 @@ window.changePokemons = changePokemons;
 export const renderPage = () => {
 
 
-    if (LAZR.STORAGE.getUserSetting('enableMusic').isActive) {
+    if (LAZR.STORAGE.getUserSetting('enableMenuMusic').isActive) {
         const mainTheme = new Audio('./medias/music/main-theme.ogg');
         mainTheme.play();
         mainTheme.loop = true;

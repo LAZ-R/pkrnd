@@ -71,9 +71,9 @@ export const renderPage = () => {
 
     /* --------------------------------------------------------------------- */
 
-    window.addEventListener("load", (event) => {
+    if (LAZR.STORAGE.getUserSetting('enableMenuSound').isActive) {
         playPokemonSound();
-      });
+    }
     
     return page;
 }

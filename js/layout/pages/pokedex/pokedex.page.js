@@ -6,7 +6,7 @@ export const renderPage = () => {
 
     const pokemons = POKEMONS_SERVICE.getPokemonsList();
 
-    if (LAZR.STORAGE.getUserSetting('enableMusic').isActive) {
+    if (LAZR.STORAGE.getUserSetting('enableMenuMusic').isActive) {
         const oakLabTheme = new Audio('./medias/music/oak-lab-theme.ogg');
         oakLabTheme.play();
         oakLabTheme.volume = .25;
@@ -17,7 +17,7 @@ export const renderPage = () => {
     const pageTitle = 'Pokédex';
     LAZR.DOM.setHTMLTitle(pageTitle);
 
-    const page = LAZR.DOM.createElement('div', 'pokedexPage', 'page', `
+    const page = LAZR.DOM.createElement('div', 'pokedexPage', 'page pokedex-page', `
         <h1 style="margin-left: var(--horizontal-padding)">${pageTitle}</h1>`);
 
         pokemons.forEach(pokemon => {
