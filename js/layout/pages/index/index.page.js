@@ -4,9 +4,9 @@ import { CombatPokemon } from '../../../types/CombatPokemon.type.js';
 import { renderTypeImage } from '../../../components/typeImage/typeImage.component.js';
 
 let pokemon1 = new CombatPokemon(POKEMONS_SERVICE.getRandomPokemon());
-pokemon1.logToConsole();
+//pokemon1.logToConsole();
 let pokemon2 = new CombatPokemon(POKEMONS_SERVICE.getRandomPokemon());
-pokemon2.logToConsole();
+//pokemon2.logToConsole();
 
 const randomizeFilter = LAZR.CSS.getFilterStringForHexValue(LAZR.CSS.getCssRootVariableValue('--gray-30'));
 
@@ -57,9 +57,9 @@ const renderPokemonsArea = (pokemon1, pokemon2) => {
 
 const changePokemons = () => {
     pokemon1 = new CombatPokemon(POKEMONS_SERVICE.getRandomPokemon());
-    pokemon1.logToConsole();
+    //pokemon1.logToConsole();
     pokemon2 = new CombatPokemon(POKEMONS_SERVICE.getRandomPokemon());
-    pokemon2.logToConsole();
+    //pokemon2.logToConsole();
     document.getElementById('indexPage').style.opacity = 0;
     setTimeout(() => {
         document.getElementById('indexPage').innerHTML = renderPokemonsArea(pokemon1, pokemon2);
